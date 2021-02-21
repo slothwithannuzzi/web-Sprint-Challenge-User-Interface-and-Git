@@ -282,3 +282,15 @@ footer nav a {
     margin: 1rem 0 1.5rem 0;
 }
 
+/* about page unique CSS here */
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutBox {
+    width: fit-content;
+    border-bottom: 1px dashed black;
+}
+
