@@ -284,14 +284,23 @@ footer nav a {
 
 /* about page unique CSS here */
 
-
-#about-section {
+.sectionContainer {
     width:100%;
     display:flex; 
     justify-content:center;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.3rem;
     border-bottom: 1px dashed black;
 }
-#aboutContainer{
+
+.sectionContainer2 {
+    width:100%;
+    display:flex; 
+    justify-content:center;
+    margin: 1rem 0 2rem 0;
+}
+
+.sectionContent {
     width:95%;
     
 }
@@ -299,6 +308,7 @@ footer nav a {
 .about-content {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1.5rem;
 }
 
 .aboutBox {
@@ -306,5 +316,23 @@ footer nav a {
     border-bottom: 1px dashed black;
     margin-top: 20px;
     padding-bottom: 10px;
+    display:flex;
+    flex-flow:column;
 }
 
+.aboutBox h1 {
+    margin: 15px 0 15px 0;
+}
+
+.learnMore {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width: 150px;
+    margin: 15px 0 5px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
