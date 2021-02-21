@@ -284,13 +284,27 @@ footer nav a {
 
 /* about page unique CSS here */
 
+
+#about-section {
+    width:100%;
+    display:flex; 
+    justify-content:center;
+    border-bottom: 1px dashed black;
+}
+#aboutContainer{
+    width:95%;
+    
+}
+
 .about-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .aboutBox {
-    width: fit-content;
+    width: 370px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }
 
